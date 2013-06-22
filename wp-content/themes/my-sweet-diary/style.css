@@ -1,0 +1,488 @@
+/*
+Theme Name: My Sweet Diary
+Description: Clean style blue theme. Added: Cufon support in the Header, WP PageNavi Support!
+Theme URI: http://demo.creativeblogdesigns.com/?wptheme=My+Sweet+Diary
+Tags: Blue, two-columns, fixed-width
+Version: 1.4
+Author: byPrelco Web Design
+Author URI: http://www.byprelco.com
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	background: none;
+}
+
+
+body {
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	background:#e1eef8;
+	}
+	
+#faux {
+	width: 1100px;
+	height: auto;
+	margin: 0 auto 0 auto;
+	background:#e1eef8 url('images/faux.jpg') repeat-y top;
+	}
+
+#header {
+	margin: 0;
+	width: 1100px;
+	height: 359px;
+	background:url('images/header.jpg') no-repeat top;
+	overflow: hidden;
+	text-align: left;
+}
+
+#header h1 {
+	margin: 160px auto auto 200px;
+}
+
+#header h1 a {
+	font-size: 70px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #516999;
+}
+
+#header p {
+	margin: 0px auto auto 200px;
+	.margin: -40px auto auto 200px;
+	font-size: 50px;
+	text-decoration: none;
+	color: #516999;
+}
+
+#container {
+	text-align:center;
+	width: 1100px;
+	height: auto;
+	margin: 0 auto 0 auto;
+
+}
+
+#sidebar {
+	width: 230px;
+	margin: 0 auto auto 130px;
+	float: left;
+	text-align: left;
+	display:inline;
+	
+}
+
+#sidebar .widget {
+	margin: 0 auto 20px 0;
+}
+
+#sidebar h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color:#516999;
+}
+
+#sidebar ul {
+	margin: 10px auto 0 0;
+}
+
+#sidebar ul li {
+	margin-top: 8px;
+	padding-left: 27px; 
+	font-size: 14px;
+	line-height: 14px;
+	background:url('images/heart.gif') no-repeat top left;
+	list-style: none;
+}
+
+#sidebar ul li a {
+	color:#516999;
+	text-decoration: none;
+	
+}
+
+#sidebar a {
+	color:#516999;
+	font-size: 14px;
+	line-height: 14px;
+	text-decoration: none;
+}
+
+a.tagsz-1 { font-size:  8px; }
+a.tagsz-2 { font-size: 10px; }
+a.tagsz-3 { font-size: 12px; }
+a.tagsz-4 { font-size: 14px; }
+a.tagsz-5 { font-size: 16px; }
+
+
+#sidebar #searchform .hidden {
+	display:none;
+	}
+
+#sidebar form#searchform div {
+	margin: 20px 0;
+	height: 38px;
+	width: auto;
+	}
+	
+#sidebar #searchform input#s {
+	margin: 0 5px auto 10px;
+	padding: 0;
+	height: 18px;
+	width: 144px;
+	border: #ABC8E2 solid 1px;
+	font-weight:bold;
+	font-size: 15px;
+	color: #4265A7;
+	line-height: 20px;
+	overflow: hidden;
+	text-align:center;
+	}
+
+#sidebar #searchform input#searchsubmit {
+	margin: 0 auto 0 0;
+	height: 18px;
+	width: 53px;
+	color: #FFF;
+	border: 0;
+	background: #445B8F;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+#sidebar div#calendar_wrap {
+	margin: 0 auto 7px 0;
+	width: 250px;
+	text-align: center;
+	font-size: 14px;
+	}
+
+#sidebar #calendar_wrap table{
+	margin: 0 auto;
+	color:#516999;
+	}
+
+#sidebar #calendar_wrap caption {
+	margin: 0 auto 7px 0;
+	font-size: 16px;
+	font-weight: bold;
+	}
+	
+#sidebar #calendar_wrap a{
+	font-size: 14px;
+	color: #516999;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+#content {
+	margin: 0 auto auto 20px;
+	float:left;
+	width: 590px;
+	height: auto;
+	text-align: left;
+	color:#516999;
+	display: inline;
+}
+
+.post {
+	margin: 0 auto 20px auto;
+	width: 590px;
+}
+
+
+
+.post-date p	{
+	font-size: 12px;
+	font-style:italic;
+	font-weight: bold;
+}
+
+
+.post-title h1 {
+	margin-top: 8px;
+}
+
+.post-title h1 a {
+	font-size: 22px;
+	font-weight: bold;
+	color:#516999;
+	text-decoration: none;
+}
+
+.post-meta {
+	margin-top: 6px;
+	padding-left: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	background:url('images/author.gif') no-repeat left;
+}
+
+.post-meta a {
+	color:#516999;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.post-tags {
+	margin-top: 6px;
+	padding-left: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	background:url('images/tags.gif') no-repeat left;
+}
+
+.post-tags a {
+	color:#516999;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.post-content {
+	margin: 15px auto 0 auto;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.post-content p {
+	margin-bottom: 10px;
+}
+
+.post-content a {
+	color:#516999;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.post-content ol {
+	margin: 7px auto 7px 18px;
+	}
+
+.post-content ol li {
+	margin-left: 5px;
+	padding: 0px;
+	}
+
+.post-content ul {
+	margin: 7px auto 7px 14px;
+	}
+
+.post-content ul li {
+	margin-left: 5px;
+	padding: 0px;
+	}
+
+.post-content h1 {
+	margin: 5px auto 5px 0;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	font-size: 25px;
+	font-weight: bold;
+	border-left: 4px #516999 solid;
+	border-bottom: 1px #516999 solid;
+	}
+
+.post-content h2 {
+	margin: 5px auto 5px 0;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	font-size: 25px;
+	font-weight: normal;
+	font-style:italic;
+	border-left: 4px #516999 solid;
+	border-bottom: 1px #516999 solid;
+	}
+
+.post-content h3 {
+	margin: 5px auto 5px 0;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	font-size: 22px;
+	font-weight: bold;
+	border-left: 6px #516999 solid;
+	}
+
+.post-content h4 {
+	margin: 5px auto 5px 0;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	font-size: 22px;
+	font-weight: normal;
+	font-style:italic;
+	border-left: 6px #516999 solid;
+	}
+
+.post-content h5 {
+	margin: 5px auto 5px 0;
+	padding-left: 8px;
+	padding-bottom: 4px;
+	font-size: 22px;
+	font-weight: normal;
+	border-left: 6px #516999 solid;
+	}
+
+.post-content blockquote {
+	background:url('images/blockquote.gif') no-repeat top left;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	border-left: 2px #999999 solid;
+	padding-left: 15px;
+	}
+	
+.post-content pre {
+	white-space: pre-wrap;
+	width:560px;
+	}
+	
+.post-content img.alignleft {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.post-content img.alignright {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+.post-content img.aligncenter {
+	text-align: center;
+}
+
+#content .comments {
+	margin: 10px auto auto auto;
+	}
+
+#content .comments a {
+	text-decoration: none;
+	color:inherit;
+	font-weight: bold;
+	}
+
+.comments-template {
+	width: 530px;
+	}
+
+.comments-template p {
+	text-indent: 0px;
+	}
+
+#commentform #author, #commentform #email, #commentform #url, #commentform #comment {
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	color: #666666;
+}
+
+.commentlist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.commentlist li {
+	background: #ebebeb;
+	padding: 20px;
+	border: 1px solid #cccccc;
+	margin: 0 0 20px 0;
+}
+
+.avatar {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+.post-footer {
+	margin-top: 16px;
+	width: 540px;
+	height: 13px;
+	background:url('images/spacer.gif') no-repeat right;
+}
+
+.navigation {
+	margin: 10px auto 0 auto;
+	width: 590px;
+	height: auto;
+	font-size: 14px;
+	color: #516999;
+}
+
+.navigation a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #516999;
+}
+
+.navigation .alignleft {
+	float: left;
+	border: none;
+}
+
+.navigation .alignright {
+	float:right;
+	border: none;
+}
+
+.navigation a.alignleft, .navigation a.alignright {
+	border: none;
+}
+
+.navigation .clear {
+	clear: both;
+	height: 1px;
+	width: auto;
+}
+
+#pagenavi {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#pagenavi .wp-pagenavi {
+	margin: 0 auto;
+	text-align: left;
+}
+
+#pagenavi .wp-pagenavi span.pages,#pagenavi span.current,#pagenavi a.page,#pagenavi a  {
+	background: none;
+	color: #516999;
+	border: 1px solid #516999;
+	font-size: 11px;
+}
+
+#footer {
+	width: 1100px;
+	height: 221px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+	background: url('images/footer.jpg');
+}
+
+#footer p {
+	margin: 190px auto auto 190px;
+	color:#516999;
+	font-size: 13px;
+}
+
+#footer p a {
+	color:#516999;
+	font-size: 13px;
+	text-decoration: none;
+}
